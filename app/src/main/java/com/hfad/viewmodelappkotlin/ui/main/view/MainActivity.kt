@@ -1,9 +1,9 @@
-package com.hfad.viewmodelappkotlin
+package com.hfad.viewmodelappkotlin.ui.main.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.hfad.viewmodelappkotlin.R
 import com.hfad.viewmodelappkotlin.databinding.MainActivityBinding
-import com.hfad.viewmodelappkotlin.ui.main.MainFragment
 
 
 class MainActivity : AppCompatActivity() {
@@ -19,6 +19,5 @@ class MainActivity : AppCompatActivity() {
                 .replace(R.id.container, MainFragment.newInstance())
                 .commitNow()
         }
-
     }
 }
